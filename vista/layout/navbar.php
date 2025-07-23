@@ -26,7 +26,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <li><a class="dropdown-item text-info" href="http://localhost/sisventas/vista/cliente/listado.php"><i class="bi bi-people-fill"></i> Clientes</a></li>
             <li><a class="dropdown-item text-info" href="http://localhost/sisventas/vista/proveedor/listado.php"><i class="bi bi-truck"></i> Proveedores</a></li>
             <li><a class="dropdown-item text-info" href="http://localhost/sisventas/vista/categoria/productos_por_categoria.php"><i class="bi bi-tags-fill"></i> Categorías</a></li>
-            <li><a class="dropdown-item text-info" href="#"><i class="bi bi-person-lines-fill"></i> Usuarios</a></li>
+            <li><a class="dropdown-item text-info" href="http://localhost/sisventas/vista/usuario/listado.php"><i class="bi bi-person-lines-fill"></i> Usuarios</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item text-danger fw-bold" href="logout.php"><i class="bi bi-door-closed-fill"></i> Terminar</a></li>
           </ul>

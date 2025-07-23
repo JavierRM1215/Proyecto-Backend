@@ -55,4 +55,9 @@ class UsuarioController {
     $update = $pdo->prepare("UPDATE usuarios SET password = ? WHERE nomusuario = ?");
     return $update->execute([$hash, $usuario]);
 }
+
+public function listarUsuarios() {
+    return $this->modelo->obtenerTodos();
+}
+
 }

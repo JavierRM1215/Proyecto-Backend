@@ -35,5 +35,12 @@ class Usuario {
             'email' => $datos['email'] ?? '',
         ]);
     }
+
+    public function obtenerTodos() {
+    $sql = "SELECT idusuario, nomusuario, apellidos, nombres, email, estado FROM usuarios";
+    $stmt = $this->pdo->query($sql);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
 }
 
